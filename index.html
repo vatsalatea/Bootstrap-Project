@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Changing Cards</title>
+  <link rel="stylesheet" href="style.css">
+  <!--need to add bootstrap link here-->
+</head>
+<body>
+  <!--create a <div> element with two classes applied to it: "container" and "mt-5". The closing </div> is on line 42-->
+    <div class="row">
+      <!--make div class this have 4 columns in medium view port and margin spacing at the bottom of 3 units-->
+      
+        <div class="card">
+          <img id="image1" src="image1.jpg" class="card-img-top" alt="Image 1">
+          <div class="card-body">
+            <h5 class="card-title">Card 1</h5>
+            <button id="changeButton1" class="btn btn-primary">Change Image</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img id="image2" src="image2.jpg" class="card-img-top" alt="Image 2">
+          <div class="card-body">
+            <h5 class="card-title">Card 2</h5>
+            <button id="changeButton2" class="btn btn-primary">Change Image</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img id="image3" src="image3.jpg" class="card-img-top" alt="Image 3">
+          <div class="card-body">
+            <h5 class="card-title">Card 3</h5>
+            <button id="changeButton3" class="btn btn-primary">Change Image</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

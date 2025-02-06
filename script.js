@@ -11,6 +11,11 @@ const image3Alt = "image3_alt.jpg";
 
 //duplicate this and make it for each of the three changeButtons, images, and imageAlts
 changeButton.addEventListener('click', () => {
-  image.src = imageAlt;
+  image.src = image1Alt;
 });
-
+changeButton.addEventListener('click', () => {
+  image.src = image2Alt;
+});
+changeButton.addEventListener('click', () => {
+  image.src = image3Alt;
+});

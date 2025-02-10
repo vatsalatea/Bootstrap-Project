@@ -13,12 +13,12 @@ const image2Alt = "https://hips.hearstapps.com/hmg-prod/images/brabham-bt62-115-
 const image3Alt = "https://upload.wikimedia.org/wikipedia/commons/1/11/Nissan_Pao_001.JPG";
 
 //duplicate this and make it for each of the three changeButtons, images, and imageAlts
-changeButton.addEventListener('click', (changeButton1) => {
-  image.src = image1Alt;
+changeButton1.addEventListener('click', () => {
+  image1.src = image1Alt;
 });
-changeButton.addEventListener('click', (changeButton2) => {
-  image.src = image2Alt;
+changeButton2.addEventListener('click', () => {
+  image2.src = image2Alt;
 });
-changeButton.addEventListener('click', (changeButton3) => {
-  image.src = image3Alt;
+changeButton3.addEventListener('click', () => {
+  image3.src = image3Alt;
 });
